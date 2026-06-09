@@ -19,6 +19,7 @@
   "metadataURI": "https://myuniversity.com/diploma.json",
   "issueDate": 1704067200
 }
+```
 
 ### 2.2. Верификация диплома
 
@@ -37,7 +38,7 @@ GET https://diplomaguard.com/verify/DIP-2026-001
   "degree": "Бакалавр",
   "university": "Технический университет"
 }
-
+```
 ### 2.3. Если диплом не найден
 
 ```json
@@ -46,7 +47,7 @@ GET https://diplomaguard.com/verify/DIP-2026-001
   "isValid": false,
   "error": "Диплом не найден"
 }
-
+```
 ## 3. Ограничения
 Сеть: Sepolia (тестовая)
 
